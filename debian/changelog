@@ -1,0 +1,5 @@
+collectd (5.1.0-1) unstable; urgency=low
+
+  * Initial debianization.
+
+ -- Paul Lathrop <plathrop@krux.com>  Wed, 25 Jul 2012 00:01:14 +0000

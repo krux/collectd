@@ -1,0 +1,16 @@
+Source: collectd
+Section: unknown
+Priority: extra
+Maintainer: Paul Lathrop <plathrop@krux.com>
+Build-Depends: cdbs, debhelper (>= 7), autotools-dev, libvarnishapi-dev, libsnmp-dev, liboping-dev
+Standards-Version: 3.8.3
+Homepage: http://collectd.org/
+
+Package: collectd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: collectd built against lucid
+ Build of latest collectd against lucid (the debian/sid package
+ requires a new libc, eep!), with 
+ CFLAGS=-DLT_LAZY_OR_NOW='RTLD_LAZY|RTLD_GLOBAL' to work around
+ http://mailman.verplant.org/pipermail/collectd/2008-March/001616.html.
