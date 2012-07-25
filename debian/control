@@ -2,7 +2,7 @@ Source: collectd
 Section: unknown
 Priority: extra
 Maintainer: Paul Lathrop <plathrop@krux.com>
-Build-Depends: cdbs, debhelper (>= 7), autotools-dev, libvarnishapi-dev, libsnmp-dev, liboping-dev, python-dev, libcurl3, libsnmp-dev, apache2
+Build-Depends: cdbs, debhelper (>= 7), autotools-dev, libvarnishapi-dev, libsnmp-dev, liboping-dev, python-dev, libcurl3, libsnmp-dev, apache2, apache2-prefork-dev
 Standards-Version: 3.8.3
 Homepage: http://collectd.org/
 
